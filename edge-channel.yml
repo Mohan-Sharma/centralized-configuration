@@ -9,4 +9,4 @@ spring:
     datasource:
       url: jdbc:mysql://localhost:3306/smart_school
       username: root
-      password:
+      password: welcome
