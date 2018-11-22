@@ -6,7 +6,7 @@ spring:
       show-sql: true
       hibernate:
         ddl-auto: create-drop
-        dialect:
+        dialect: org.hibernate.dialect.MySQL55Dialect
           storage_engine: innodb
     datasource:
       url: jdbc:mysql://localhost:3306/smart_school?useSSL=true
